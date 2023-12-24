@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2; /* Light Pink background color for cuteness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.cute-content {
+    max-width: 600px;
+}
+
+h1 {
+    color: #ff66b2; /* Pink color for the title */
+}
+
+p {
+    font-size: 18px;
+    color: #ff4d94; /* Slightly darker pink color for the text */
+}

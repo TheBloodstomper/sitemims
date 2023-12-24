@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #cfe2f3; /* Light Blue background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.centered-gif {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question-container {
+    margin-top: 20px;
+    background-color: #ffffff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    margin: 0 0 15px;
+    font-size: 18px;
+    color: #3a536b; /* Dark Blue text color */
+}
+
+.answers {
+    display: flex;
+    justify-content: center;
+}
+
+.answer {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#yes {
+    background-color: #a7e6ff; /* Light Blue background for cute style */
+    color: #3a536b; /* Dark Blue text color for cute style */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#yes:hover {
+    background-color: #7bbdff; /* Slightly darker blue on hover for cute style */
+}
+
+#no {
+    background-color: #f08080; /* Light Coral background for distinct style */
+    color: #fff; /* White text color for distinct style */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#no:hover {
+    background-color: #ff6666; /* Slightly darker red on hover for distinct style */
+}
